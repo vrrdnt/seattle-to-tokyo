@@ -1,0 +1,48 @@
+/* client/src/App.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.dark-mode {
+    filter: invert(1);
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.clock {
+    background-color: #444;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.comparison-table th {
+    background-color: #555;
+}
+
